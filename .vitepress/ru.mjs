@@ -18,8 +18,15 @@ export const ru = {
                 text: '🔁 DevOps',
                 items: [{
                     text: '🛠️ Ansible',
-                    link: 'devops/ansible/'
+                    link: '/ru/devops/ansible/'
                 }, ]
+            },
+            {
+                text: '🐧 Linux',
+                items: [{
+                    text: '💬 Commands',
+                    link: '/ru/linux/commands/'
+                }]
             }
         ],
 
@@ -28,13 +35,9 @@ export const ru = {
             link: 'https://github.com/hidden-wolf-pool/hidden-wolf-pool.github.io'
         }],
 
-        search: {
-            provider: 'local'
-        },
-
         sidebar: getSidebar({
             contentRoot: resolve(__dirname, '../docs'),
-            contentDirs: ['ru/devops/ansible'],
+            contentDirs: ['ru/devops', 'ru/linux'],
             useFrontmatter: true,
             collapsible: true,
             collapsed: true,

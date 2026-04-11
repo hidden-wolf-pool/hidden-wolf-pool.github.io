@@ -8,7 +8,9 @@ export const shared = defineConfig({
     base: '',
     srcDir: "./docs",
     cleanUrls: true,
-    rewrites: {
-        'en/:rest*': ':rest*'
-    },
+    themeConfig: {
+        search: {
+            provider: 'local',
+        }
+    }
 });
