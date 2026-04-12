@@ -2,7 +2,7 @@
 name: "🐺 Join to Hidden Wolf Pool"
 about: "Join to the contributor team"
 title: "[WOLF] New Guy"
-labels: wolf
+labels: ["wolf"]
 assignees: alimektor
 ---
 ## How Do I Get Started? ##
