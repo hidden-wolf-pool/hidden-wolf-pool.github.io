@@ -1,6 +1,6 @@
 ---
-name: "🐺 Join to Hidden Wolf Pool"
-about: "Join to the contributor team"
+name: "🐺 Join Hidden Wolf Pool"
+about: "Join the contributor team"
 title: "[WOLF] New Guy"
 labels: ["wolf"]
 assignees: alimektor
@@ -60,7 +60,7 @@ To grant quick repository access, here's my public SSH key (`id_rsa.pub` or equi
 
 Our project coordinator will review your request and:
 
-- Add you to the organization/repository (if required).
+- Add you to the organization / repository (if required).
 - Confirm access.
 - Reply to this issue with further instructions.
 
